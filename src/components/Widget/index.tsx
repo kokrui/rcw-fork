@@ -78,7 +78,7 @@ function Widget({
     }
 
     handleSubmit?.(userInput);
-    dispatch(addUserMessage(userInput));
+    //dispatch(addUserMessage(userInput));
     handleNewUserMessage(userInput);
   }
 
